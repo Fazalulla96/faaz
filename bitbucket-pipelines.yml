@@ -7,5 +7,5 @@ pipelines:
           master ; echo "Changes deployed successfully"'
     dev:
       script:
-        - ssh -i ubuntu@13.233.183.105 'cd /home/ubuntu/faaz ; git pull origin
-          master ; echo "Changes deployed successfully"'
+        - ssh -i ubuntu@13.233.183.105 'cd /home/ubuntu ; git pull origin
+          dev ; echo "Changes deployed successfully"'
